@@ -17,9 +17,16 @@ our target dataset
 
 * We tried to improve performance by removing features that are not relevant, change the activation, loss and optimizers, increase the epochs and change the batch size
 
+### Below we have the initial performance:
+<img title="a title" alt="Alt text" src="./Screenshot2.png">
+
+### And here we have the optimized performance:
+<img title="a title" alt="Alt text" src="./Screenshot1.png">
+
 ## Summary
 * This model gives us a 75% accuracy on whether a charity application should be approved. That shows that our feature set might not be complete and that we might need to obtain more information from the applicants
 
 * We can also continue increasing the epoch and reudcing the buffersize as well as trying different optimizers, but there seems to be a solid 75% barrier which might indicate that the dataset is incomplete
+
 
 
